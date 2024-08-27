@@ -98,17 +98,6 @@ export default function Component() {
             </span>
           </div>
         </div>
-        <nav className="hidden md:flex space-x-4 border-[#9725c5] border-2 p-2 rounded-full">
-          <a href="#" onClick={() => scrollToSection(propuestasRef)} className="hover:text-[#f3b226] transition-colors">
-            Propuestas
-          </a>
-          <a href="#" onClick={() => scrollToSection(experienciaRef)} className="hover:text-[#f3b226] transition-colors">
-            Experiencia
-          </a>
-          <a href="#" className="hover:text-[#f3b226] transition-colors text-[#f3b226] font-bold" onClick={() => scrollToSection(experienciaRef)}>
-            ¿Sabías que ya fuí decano?
-          </a>
-        </nav>
         <Sheet>
           <SheetTrigger asChild>
             <Button variant="outline" size="icon" className="md:hidden">
@@ -244,6 +233,7 @@ export default function Component() {
       animate="visible"
     >
       <motion.h2 className="text-3xl md:text-4xl font-bold mb-8 md:mb-10 text-center" variants={itemVariants}>Mi Experiencia</motion.h2>
+      <motion.h2 className="text-3xl md:text-4xl font-bold mb-8 md:mb-10 text-center bg-[#f3b226] rounded-md p-4 text-[#9725c5]" variants={itemVariants}>¿Sabías que ya fuí decano?</motion.h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <motion.div 
           className="bg-[#f3b226] p-6 rounded-lg shadow-lg border-4 border-[#9725c5]"
