@@ -457,6 +457,16 @@ export default function Component() {
           ))}
         </div>
       </motion.section>
+      <footer className="bg-[#9725c5] text-[#fcfffd] py-4">
+      <div className="container mx-auto px-4 flex justify-between items-center">
+        <p className="text-sm md:text-base font-semibold">
+          "Tu voto por Carlos Mora es un voto por un futuro brillante para nuestra facultad"
+        </p>
+        <p className="text-xs md:text-sm">
+          Hecho por Jeferson Yesid Ortiz
+        </p>
+      </div>
+    </footer>
    </div>
   )
 }
