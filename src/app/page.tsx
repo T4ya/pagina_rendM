@@ -1336,7 +1336,7 @@ const slides: SlideData[] = [
           </h3>
           <p className="text-white text-lg text-center leading-relaxed italic">
             &ldquo;Por una Universidad Pública y Nacional que Garantice el Acceso 
-            al Bien Común del Conocimiento y el Derecho Fundamental a la Educación Superior&rdquo;
+            al Bien Común del Conocimiento y el Derecho Fundamental a la Educación Superior.&rdquo;
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
