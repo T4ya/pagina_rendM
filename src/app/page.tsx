@@ -1645,7 +1645,7 @@ export default function FIABalanceSlides() {
 
       {/* Navigation Hint */}
       <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 font-mono text-xs text-white/60 hidden md:block bg-black/20 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
-        Usa las flechas ← → o los botones para navegar
+        Usa las flechas ← → o los botones para navegar en la página
       </div>
 
       {/* Slide Navigation Dots */}
