@@ -1529,8 +1529,8 @@ export default function FIABalanceSlides() {
         }
         
         @keyframes grow-up {
-          from { height: 0; }
-          to { height: var(--final-height); }
+          from { transform: scaleY(0); }
+          to { transform: scaleY(1); }
         }
         
         @keyframes count-up {
@@ -1575,6 +1575,7 @@ export default function FIABalanceSlides() {
         
         .animate-grow-up {
           animation: grow-up 1s ease-out forwards;
+          transform-origin: bottom;
         }
         
         .animate-count-up {
